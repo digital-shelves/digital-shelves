@@ -1,0 +1,125 @@
+
+.action-container[b-765mcrdqk2] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px
+}
+
+.create-buttons-box[b-765mcrdqk2] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+
+.view-range-box[b-765mcrdqk2] {
+    background-color: var(--bg-300);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    margin-left: 3vw;
+}
+
+
+    .view-range-box input[b-765mcrdqk2] {
+        min-width: 100px;
+        max-width: 200px;
+        max-height: 35.6px;
+        margin: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    .view-range-box p[b-765mcrdqk2] {
+        margin-top: 5px;
+        padding: 15px;
+    }
+
+
+.group-header[b-765mcrdqk2] {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+    
+    .group-header p[b-765mcrdqk2] {
+        font-weight: bold;
+        font-size: 18px;
+        position: relative;
+        top: 12%;
+    }
+
+
+.reading-item[b-765mcrdqk2] {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+}
+
+    .reading-item p[b-765mcrdqk2] {
+        font-size: 15px;
+        position: relative;
+        top: 12%;
+    }  
+
+.delete-icon[b-765mcrdqk2] {
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    align-self: start;
+    justify-self: end;
+}
+
+
+
+
+.graph[b-765mcrdqk2] {
+    width: 95%;
+}
+
+.graph-placeholder[b-765mcrdqk2] {
+    width: 830px;
+    height: 580px;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--bg-200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 30px;
+}
+
+.placeholder-content[b-765mcrdqk2] {
+    text-align: center;
+}
+
+.sample-graph[b-765mcrdqk2] {
+    width: 830px;
+    height: 600px;
+}
+
+
+@media (max-width: 750px) {
+    .parameter-container[b-765mcrdqk2] {
+        grid-template-columns: 1fr;
+    }
+    .create-buttons-box[b-765mcrdqk2] {
+        grid-template-columns: 1fr;
+    }
+    .view-range-box[b-765mcrdqk2] {
+        grid-template-columns: 1fr;
+    }
+    .groups-and-graph[b-765mcrdqk2] {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,12 @@
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\bin\Debug\net8.0\DigitalShelves.Shared.deps.json
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\bin\Debug\net8.0\DigitalShelves.Shared.dll
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\bin\Debug\net8.0\DigitalShelves.Shared.pdb
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\obj\Debug\net8.0\DigitalShelves.Shared.csproj.AssemblyReference.cache
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\obj\Debug\net8.0\DigitalShelves.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\obj\Debug\net8.0\DigitalShelves.Shared.AssemblyInfoInputs.cache
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\obj\Debug\net8.0\DigitalShelves.Shared.AssemblyInfo.cs
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\obj\Debug\net8.0\DigitalShelves.Shared.csproj.CoreCompileInputs.cache
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\obj\Debug\net8.0\DigitalShelves.Shared.dll
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\obj\Debug\net8.0\refint\DigitalShelves.Shared.dll
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\obj\Debug\net8.0\DigitalShelves.Shared.pdb
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Shared\obj\Debug\net8.0\ref\DigitalShelves.Shared.dll

@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\obj\\Release\\net8.0\\compressed\\gtb04924my.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\obj\\Release\\net8.0\\scopedcss\\bundle\\WebAPI.Client.styles.css",
+      "PackagePath": "staticwebassets\\WebAPI.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\css\\Components.css",
+      "PackagePath": "staticwebassets\\css\\Components.css"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\css\\Palette.css",
+      "PackagePath": "staticwebassets\\css\\Palette.css"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\css\\presets.css",
+      "PackagePath": "staticwebassets\\css\\presets.css"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\images\\delete-icon.png",
+      "PackagePath": "staticwebassets\\images\\delete-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\images\\next-icon.png",
+      "PackagePath": "staticwebassets\\images\\next-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\images\\save-icon.png",
+      "PackagePath": "staticwebassets\\images\\save-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\images\\x-icon.png",
+      "PackagePath": "staticwebassets\\images\\x-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\help\\SpecInterface\\WebAPI\\WebAPI.Client\\wwwroot\\js-components\\readingChart.js",
+      "PackagePath": "staticwebassets\\js-components\\readingChart.js"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.WebAPI.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.WebAPI.Client.props",
+      "PackagePath": "build\\WebAPI.Client.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAPI.Client.props",
+      "PackagePath": "buildMultiTargeting\\WebAPI.Client.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebAPI.Client.props",
+      "PackagePath": "buildTransitive\\WebAPI.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

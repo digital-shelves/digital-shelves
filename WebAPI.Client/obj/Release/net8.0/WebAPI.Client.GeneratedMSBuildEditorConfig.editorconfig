@@ -1,0 +1,67 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = WebAPI.Client
+build_property.RootNamespace = WebAPI.Client
+build_property.ProjectDir = C:\Users\NLTKD\OneDrive\Desktop\help\SpecInterface\WebAPI\WebAPI.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\NLTKD\OneDrive\Desktop\help\SpecInterface\WebAPI\WebAPI.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/Pages/Presets.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc2V0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-kjmb7skb2l
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-19w0b7rge8
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/Pages/Absorbances.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJzb3JiYW5jZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fhtc7qervk
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/Pages/Calibration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsaWJyYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5qdaw2jabv
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-51enzg5bce
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/Pages/Model.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-50cehm1ub8
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/Pages/Predict.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZGljdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-tufuxi5d0i
+
+[C:/Users/NLTKD/OneDrive/Desktop/help/SpecInterface/WebAPI/WebAPI.Client/Pages/SampleReadings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUmVhZGluZ3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-765mcrdqk2

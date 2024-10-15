@@ -1,0 +1,6 @@
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Client\obj\Debug\net8.0\DigitalShelvesClient.csproj.AssemblyReference.cache
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Client\obj\Debug\net8.0\DigitalShelvesClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Client\obj\Debug\net8.0\DigitalShelvesClient.AssemblyInfoInputs.cache
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Client\obj\Debug\net8.0\DigitalShelvesClient.AssemblyInfo.cs
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Client\obj\Debug\net8.0\DigitalShelvesClient.csproj.CoreCompileInputs.cache
+C:\Users\NLTKD\OneDrive\Desktop\New_Design\WebAPI.Client\obj\Debug\net8.0\DigitalShelvesClient.MvcApplicationPartsAssemblyInfo.cache

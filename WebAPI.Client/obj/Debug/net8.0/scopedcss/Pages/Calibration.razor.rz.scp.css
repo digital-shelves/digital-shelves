@@ -1,0 +1,68 @@
+.graph-container[b-5qdaw2jabv] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    background-color: var(--bg-300);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.graph-item[b-5qdaw2jabv] {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .graph-item canvas[b-5qdaw2jabv] {
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+
+.graph-placeholder[b-5qdaw2jabv] {
+    width: 1000px;
+    height: 580px;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--bg-200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 30px;
+}
+
+.placeholder-content[b-5qdaw2jabv] {
+    text-align: center;
+}
+
+
+
+@media (max-width: 700px) {
+    .parameter-container[b-5qdaw2jabv] {
+        grid-template-columns: 1fr;
+    }
+
+    .graph-placeholder[b-5qdaw2jabv] {
+        width: 70vw;
+        height: 40vh;
+    }
+
+    .calibration-graphs[b-5qdaw2jabv] {
+        width: 70vw;
+        height: 40vh;
+    }
+}

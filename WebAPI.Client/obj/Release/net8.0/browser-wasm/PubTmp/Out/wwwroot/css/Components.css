@@ -1,0 +1,169 @@
+﻿
+.next-page-icon {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom of the viewport */
+    right: 20px; /* Distance from the right of the viewport */
+    z-index: 1000; /* Ensure it stays above other content if necessary */
+
+    background-color: rgba(255, 255, 255, 0.6); /* White background with 50% opacity */
+    border-radius: 50%; /* Makes the background circular */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box-shadow */
+
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+
+.btn-base {
+    min-width: 150px;
+    max-width: 200px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: var(--accent-100);
+}
+
+    .btn-base:hover {
+        background-color: var(--primary-200);
+    }
+
+    .btn-base:disabled {
+        cursor: not-allowed;
+        background: rgba(0, 0, 0, .08);
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+
+
+.parameter-container {
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    background-color: var(--bg-300);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/*
+.parameter-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    .parameter-item p {
+        margin: 0 0 5px 0;
+    }
+
+    .parameter-item input {
+        // min-width: 100px;
+        // max-width: 200px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        // box-sizing: border-box;
+    }
+*/
+
+.parameter-container {
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 50px;
+    background-color: var(--bg-300);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.parameter-item {
+    display: grid; /* Use grid instead of flex for layout */
+    grid-template-rows: auto auto; /* Define rows for content and input */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    .parameter-item p {
+        margin: 0 0 5px 0;
+    }
+
+    .parameter-item input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        width: 100%; /* Ensure input takes full width of the container */
+    }
+
+
+.groups-and-graph {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 30px;
+}
+
+.groups {
+    padding: 10px;
+}
+
+.group-container {
+    background-color: var(--bg-300);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.enabled-container {
+    background-color: var(--accent-100);
+}
+
+.transparent-header {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    min-width: 1ch; /* Minimum width of 1 character */
+    box-sizing: content-box;
+    color: white;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.transparent-reading {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: auto;
+    min-width: 1ch; /* Minimum width of 1 character */
+    box-sizing: content-box;
+    color: var(--text-200);
+    padding: 0;
+    white-space: nowrap;
+}
+
+.x-icon {
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    width: 28px;
+    height: 28px;
+    align-self: start;
+    justify-self: end;
+}

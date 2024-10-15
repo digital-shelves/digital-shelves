@@ -1,0 +1,190 @@
+
+
+.abs-parameters[b-fhtc7qervk] {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.abs-parameter-container[b-fhtc7qervk] {
+    // width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 50px;
+    background-color: var(--bg-300);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.abs-file-box[b-fhtc7qervk] {
+    display: grid;
+    padding: 5px;
+    background-color: var(--bg-300);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+    .abs-file-box p[b-fhtc7qervk] {
+        margin: 0 0 5px 0;
+        text-align: center;
+    }
+
+
+.abs-parameter-item[b-fhtc7qervk] {
+    display: grid; /* Use grid instead of flex for layout */
+    grid-template-rows: auto auto; /* Define rows for content and input */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    .abs-parameter-item p[b-fhtc7qervk] {
+        margin: 0 0 5px 0;
+    }
+
+    .abs-parameter-item input[b-fhtc7qervk] {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        width: 100%; /* Ensure input takes full width of the container */
+    }
+
+
+.file-inputs[b-fhtc7qervk] {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+    .file-inputs select[b-fhtc7qervk],
+    .file-inputs input[b-fhtc7qervk] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+        max-height: 40px;
+    }
+
+
+.square-button[b-fhtc7qervk] {
+    width: 40px;
+    height: 40px; 
+    background-color: var(--accent-100);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px; 
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+}
+
+    .square-button:hover[b-fhtc7qervk] {
+        background-color: var(--primary-200);
+    }
+
+
+.group-header[b-fhtc7qervk] {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+    .group-header p[b-fhtc7qervk] {
+        font-weight: bold;
+        font-size: 18px;
+        position: relative;
+        top: 12%;
+    }
+
+.reading-item[b-fhtc7qervk] {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+}
+
+    .reading-item p[b-fhtc7qervk] {
+        font-size: 15px;
+        position: relative;
+        top: 12%;
+    }
+
+.graph[b-fhtc7qervk] {
+    width: 95%;
+}
+
+.graph-placeholder[b-fhtc7qervk] {
+    width: 830px;
+    height: 580px;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--bg-200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 30px;
+}
+
+.placeholder-content[b-fhtc7qervk] {
+    text-align: center;
+}
+
+.abs-graph[b-fhtc7qervk] {
+    width: 830px;
+    height: 600px;
+}
+
+.abs-btn[b-fhtc7qervk] {
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: var(--accent-100);
+}
+
+    .abs-btn:hover[b-fhtc7qervk] {
+        background-color: var(--primary-200);
+    }
+
+.save-icon[b-fhtc7qervk] {
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    align-self: start;
+    justify-self: end;
+}
+
+@media (max-width: 750px) {
+    .abs-parameters[b-fhtc7qervk] {
+        grid-template-columns: 1fr;
+    }
+
+    .abs-parameter-container[b-fhtc7qervk] {
+        grid-template-columns: 1fr;
+    }
+
+    .graph-placeholder[b-fhtc7qervk] {
+        width: 70vw;
+        height: 40vh;
+    }
+}
