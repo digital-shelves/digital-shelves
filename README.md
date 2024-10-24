@@ -15,3 +15,4 @@ python manage.py runserver
 The server should then be available to view at http://127.0.0.1:8000
 
 At the moment the database on the server is using SQLite3.
+Git good
