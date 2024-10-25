@@ -1,6 +1,7 @@
 using WebAPI.Shared;
 using Microsoft.AspNetCore.Mvc;
-using NetOceanDirect;
+using System.Net.Http;
+
 
 namespace DigitalShelves.Server.Controllers
 {
@@ -11,21 +12,35 @@ namespace DigitalShelves.Server.Controllers
     {
 
         private readonly ILogger<ItemsController> _logger;
+        private readonly HttpClient _httpClient;
 
-        public ItemsController(ILogger<ItemsController> logger)
+        public ItemsController(ILogger<ItemsController> logger, HttpClient httpClient)
         {
             _logger = logger;
+            _httpClient = httpClient;
         }
 
         [HttpGet(Name = "search")]
-        public Item Get()  // Pass in any necessary search parameters
+        public async Task<ActionResult<Item>> Get([FromQuery] string searchQuery) // Pass in any necessary search parameters
         {
-
-            // Return the SpecReading Object
-            return new Item
+            try
             {
-                
-            };
+                // Make a request to your Django REST API
+                var apiUrl = $"http://localhost:8000/api/items/search/?query={searchQuery}"; // Update this URL as needed
+                var item = await _httpClient.GetFromJsonAsync<Item>(apiUrl);
+
+                if (item == null)
+                {
+                    return NotFound(); // Return 404 if item is not found
+                }
+
+                return Ok(item); // Return the item if found
+            }
+            catch (HttpRequestException e)
+            {
+                _logger.LogError(e, "Error fetching item from the API.");
+                return StatusCode(500, "Internal server error while contacting the API.");
+            }
         }
     }
 }
