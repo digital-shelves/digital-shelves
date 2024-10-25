@@ -1,4 +1,74 @@
-﻿
-.body {
+﻿.catalog-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
 
+    .catalog-page-container h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #007acc;
+    }
+
+    .catalog-page-container p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        max-width: 600px;
+    }
+
+.search-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-bar {
+    padding: 0.75rem;
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+    .search-button:hover {
+        background-color: #005fa3;
+    }
+
+.catalog-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+    .catalog-table th, .catalog-table td {
+        padding: 1rem;
+        border: 1px solid #ddd;
+    }
+
+    .catalog-table th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+    }
+
+.item-image {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
 }

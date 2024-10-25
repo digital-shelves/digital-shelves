@@ -186,15 +186,146 @@ main[b-kjmb7skb2l] {
 
 }
 /* /Pages/Catalog.razor.rz.scp.css */
+.catalog-page-container[b-n990u5cyud] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
 
-.body[b-sp52mr5fbz] {
+    .catalog-page-container h1[b-n990u5cyud] {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #007acc;
+    }
 
+    .catalog-page-container p[b-n990u5cyud] {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        max-width: 600px;
+    }
+
+.search-container[b-n990u5cyud] {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-bar[b-n990u5cyud] {
+    padding: 0.75rem;
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-button[b-n990u5cyud] {
+    padding: 0.75rem 1.5rem;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+    .search-button:hover[b-n990u5cyud] {
+        background-color: #005fa3;
+    }
+
+.catalog-table[b-n990u5cyud] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+    .catalog-table th[b-n990u5cyud], .catalog-table td[b-n990u5cyud] {
+        padding: 1rem;
+        border: 1px solid #ddd;
+    }
+
+    .catalog-table th[b-n990u5cyud] {
+        background-color: #f0f0f0;
+        font-weight: bold;
+    }
+
+.item-image[b-n990u5cyud] {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
 }
 /* /Pages/Home.razor.rz.scp.css */
-
-h1[b-51enzg5bce], p[b-51enzg5bce] {
-    color: var(--text-100);
+/* General Container Styling */
+.landing-page-container[b-51enzg5bce] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
+
+/* Header Styling */
+.header[b-51enzg5bce] {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Image Gallery Styling */
+.image-gallery[b-51enzg5bce] {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Add more space between images */
+    margin: 1.5rem 0;
+    flex-wrap: wrap; /* Allows images to wrap if the screen is narrow */
+}
+
+.gallery-image[b-51enzg5bce] {
+    max-width: 330px; /* Set maximum width to keep images from being too large */
+    height: auto; /* Maintains natural aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Adds a smooth scale-up effect on hover */
+}
+
+    /* Hover effect to subtly enlarge image */
+    .gallery-image:hover[b-51enzg5bce] {
+        transform: scale(1.05);
+    }
+
+/* Description Styling */
+.description[b-51enzg5bce] {
+    text-align: center;
+    max-width: 600px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* Button Styling */
+.button-container[b-51enzg5bce] {
+    text-align: center;
+}
+
+.search-button[b-51enzg5bce] {
+    background-color: #007acc;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+    .search-button:hover[b-51enzg5bce] {
+        background-color: #005fa3;
+    }
 /* /Pages/Login.razor.rz.scp.css */
 
 .body[b-iyzyldcz0x] {

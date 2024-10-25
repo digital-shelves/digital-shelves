@@ -1,16 +1,40 @@
 ﻿@page "/"
+@inject NavigationManager NavigationManager
 
-<PageTitle>Home</PageTitle>
+<!-- Main Container -->
+<div class="landing-page-container">
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Welcome to Digital Shelves</h1>
+        <p>Your go-to platform to browse and check out essential library resources beyond books.</p>
+    </header>
 
-<h1>Welcome to Digital Shelves!</h1>
+    <!-- Image Gallery Section -->
+    <section class="image-gallery">
+        <img src="images/lib_microphone.jpg" alt="Mic" class="gallery-image" />
+        <img src="images/lib_whiteboard.jpg" alt="Whiteboard" class="gallery-image" />
+        <img src="images/lib_headphones.jpg" alt="Headphones" class="gallery-image" />
+        <!-- Add more images as needed -->
+    </section>
 
-<p>Example text.</p>
+    <!-- Description Section -->
+    <section class="description">
+        <p>
+            At Digital Shelves, we make it easy for you to find and borrow essential tools and accessories, from office supplies to audio equipment.
+            Browse our catalog and see what's available for checkout!
+        </p>
+    </section>
 
+    <!-- Search Products Button -->
+    <div class="button-container">
+        <button class="search-button" @onclick="NavigateToCatalog">Search Products</button>
+    </div>
+</div>
 
 @code {
-
-    /* This is the landing page */
-
-    /* No content here yet */
+    private void NavigateToCatalog()
+    {
+        NavigationManager.NavigateTo("/catalog");
+    }
 }
 

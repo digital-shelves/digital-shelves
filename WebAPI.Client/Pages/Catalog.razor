@@ -1,18 +1,66 @@
 ﻿@page "/catalog"
 @inject HttpClient Http
-@inject IJSRuntime JSRuntime
-@inject SingletonService DataService
 
 @using WebAPI.Shared;
 
-<h1>Catalog</h1>
-<p>Complete catalog of items.</p>
+<!-- Main Container -->
+<div class="catalog-page-container">
+    <h1>Catalog</h1>
+    <p>Browse and discover items available for checkout from the library. Search for useful resources beyond books!</p>
 
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input @bind="searchQuery" placeholder="Search items..." class="search-bar" />
+        <button @onclick="SearchItems" class="search-button">Search</button>
+    </div>
 
+    <!-- Results Section (Table) -->
+    @if (items != null && items.Any())
+    {
+        <table class="catalog-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Available</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in items.Take(10))
+                {
+                    <tr>
+                        <td>@item.ID</td>
+                        <td>@item.Name</td>
+                        <td>@item.Description</td>
+                        <td>@item.AmountAvailable</td>
+                        <td><img src="@item.ImageURL" alt="@item.Name" class="item-image" /></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else if (items != null && !items.Any())
+    {
+        <p>No results found.</p>
+    }
+</div>
 
 @code {
+    private string searchQuery = string.Empty;
+    private List<Item> items = new List<Item>();
 
-    // Get a full list of the items
-
-    // Display in some sort of table format
+    // Backend Query (Not Yet Implemented)
+    private async Task SearchItems()
+    {
+        try
+        {
+            items = await Http.GetFromJsonAsync<List<Item>>($"api/items/search?query={searchQuery}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching items: {ex.Message}");
+        }
+    }
 }

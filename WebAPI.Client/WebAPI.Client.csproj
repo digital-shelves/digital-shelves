@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\js-components\**" />
+    <Content Remove="wwwroot\js-components\**" />
+    <EmbeddedResource Remove="wwwroot\js-components\**" />
+    <None Remove="wwwroot\js-components\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.4" PrivateAssets="all" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
@@ -14,11 +21,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebAPI.Shared\WebAPI.Shared.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\images\" />
-    <Folder Include="wwwroot\js-components\" />
   </ItemGroup>
 
 </Project>

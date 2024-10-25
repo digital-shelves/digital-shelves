@@ -1,117 +1,121 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\",
+  "WorkspaceRootPath": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.shared\\singletonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|solutionrelative:webapi.shared\\singletonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.shared\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|solutionrelative:webapi.shared\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\pages\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.server\\webapi.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\webapi.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\wwwroot\\css\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\wwwroot\\css\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.server\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.server\\webapi.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\webapi.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.shared\\webapi.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|solutionrelative:webapi.shared\\webapi.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\pages\\admin.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\admin.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\pages\\catalog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\pages\\catalog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\catalog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\pages\\catalog.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\pages\\catalog.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\catalog.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.client\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.shared\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|solutionrelative:webapi.shared\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.shared\\webapi.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|solutionrelative:webapi.shared\\webapi.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.shared\\webapi.shared.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|solutionrelative:webapi.shared\\webapi.shared.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.shared\\singletonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|solutionrelative:webapi.shared\\singletonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.server\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\pages\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.server\\webapi.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\webapi.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\wwwroot\\css\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\wwwroot\\css\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.server\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.server\\webapi.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\webapi.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\pages\\admin.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\admin.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.server\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\new_design\\webapi.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -122,384 +126,356 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "WebAPI.Client\\wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\wwwroot\\index.html",
-              "RelativeToolTip": "WebAPI.Client\\wwwroot\\index.html",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAA8AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-15T17:23:40.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SingletonService.cs",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Shared\\SingletonService.cs",
-              "RelativeDocumentMoniker": "WebAPI.Shared\\SingletonService.cs",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Shared\\SingletonService.cs",
-              "RelativeToolTip": "WebAPI.Shared\\SingletonService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:06:47.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.razor.css",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Login.razor.css",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Login.razor.css",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Login.razor.css",
-              "RelativeToolTip": "WebAPI.Client\\Pages\\Login.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-15T17:14:13.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Login.razor",
-              "RelativeToolTip": "WebAPI.Client\\Pages\\Login.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T17:14:47.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WebAPI.Server.http",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\WebAPI.Server.http",
-              "RelativeDocumentMoniker": "WebAPI.Server\\WebAPI.Server.http",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\WebAPI.Server.http",
-              "RelativeToolTip": "WebAPI.Server\\WebAPI.Server.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-10-15T17:34:49.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Home.razor",
-              "RelativeToolTip": "WebAPI.Client\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T17:12:16.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "WebAPI.Client\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "WebAPI.Client\\wwwroot\\css\\app.css",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-15T17:22:46.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Program.cs",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Program.cs",
-              "RelativeToolTip": "WebAPI.Client\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:18:57.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Classes.cs",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Shared\\Classes.cs",
-              "RelativeDocumentMoniker": "WebAPI.Shared\\Classes.cs",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Shared\\Classes.cs",
-              "RelativeToolTip": "WebAPI.Shared\\Classes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:10:03.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\App.razor",
-              "RelativeDocumentMoniker": "WebAPI.Client\\App.razor",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\App.razor",
-              "RelativeToolTip": "WebAPI.Client\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T17:19:09.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\_Imports.razor",
-              "RelativeDocumentMoniker": "WebAPI.Client\\_Imports.razor",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\_Imports.razor",
-              "RelativeToolTip": "WebAPI.Client\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T17:19:12.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Components.css",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\wwwroot\\css\\Components.css",
-              "RelativeDocumentMoniker": "WebAPI.Client\\wwwroot\\css\\Components.css",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\wwwroot\\css\\Components.css",
-              "RelativeToolTip": "WebAPI.Client\\wwwroot\\css\\Components.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-15T17:22:22.956Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "MainLayout.razor.css",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Layout\\MainLayout.razor.css",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Layout\\MainLayout.razor.css",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Layout\\MainLayout.razor.css",
-              "RelativeToolTip": "WebAPI.Client\\Layout\\MainLayout.razor.css",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-15T17:22:12.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "WebAPI.Client\\Layout\\MainLayout.razor",
+              "Title": "WebAPI.Server.http",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\WebAPI.Server.http",
+              "RelativeDocumentMoniker": "WebAPI.Server\\WebAPI.Server.http",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\WebAPI.Server.http",
+              "RelativeToolTip": "WebAPI.Server\\WebAPI.Server.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T17:20:42.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "WebAPI.Server.csproj",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\WebAPI.Server.csproj",
-              "RelativeDocumentMoniker": "WebAPI.Server\\WebAPI.Server.csproj",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\WebAPI.Server.csproj",
-              "RelativeToolTip": "WebAPI.Server\\WebAPI.Server.csproj",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-15T17:25:20.95Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-15T17:34:49.946Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "WebAPI.Client\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T17:20:46.131Z",
-              "EditorCaption": ""
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "WebAPI.Client\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "WebAPI.Client\\wwwroot\\css\\app.css",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T17:22:46.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DatabaseController.cs",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\Controllers\\DatabaseController.cs",
-              "RelativeDocumentMoniker": "WebAPI.Server\\Controllers\\DatabaseController.cs",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\Controllers\\DatabaseController.cs",
-              "RelativeToolTip": "WebAPI.Server\\Controllers\\DatabaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:09:08.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "WebAPI.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\appsettings.json",
-              "RelativeToolTip": "WebAPI.Server\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-15T17:08:52.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "WebAPI.Shared.csproj",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Shared\\WebAPI.Shared.csproj",
-              "RelativeDocumentMoniker": "WebAPI.Shared\\WebAPI.Shared.csproj",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Shared\\WebAPI.Shared.csproj",
-              "RelativeToolTip": "WebAPI.Shared\\WebAPI.Shared.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-15T17:30:01.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Program.cs",
               "RelativeToolTip": "WebAPI.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:08:44.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T17:08:44.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "favicon.png",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\wwwroot\\favicon.png",
-              "RelativeDocumentMoniker": "WebAPI.Client\\wwwroot\\favicon.png",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\wwwroot\\favicon.png",
-              "RelativeToolTip": "WebAPI.Client\\wwwroot\\favicon.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-10-15T17:23:34.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Admin.razor.css",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Admin.razor.css",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Admin.razor.css",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Admin.razor.css",
-              "RelativeToolTip": "WebAPI.Client\\Pages\\Admin.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-15T17:19:29.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Home.razor.css",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Home.razor.css",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Home.razor.css",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Home.razor.css",
-              "RelativeToolTip": "WebAPI.Client\\Pages\\Home.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-15T17:14:26.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Catalog.razor.css",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Catalog.razor.css",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Catalog.razor.css",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Catalog.razor.css",
-              "RelativeToolTip": "WebAPI.Client\\Pages\\Catalog.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-15T17:14:35.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Admin.razor",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Admin.razor",
-              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Admin.razor",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Admin.razor",
-              "RelativeToolTip": "WebAPI.Client\\Pages\\Admin.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T17:16:56.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 0,
               "Title": "Catalog.razor",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Catalog.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Catalog.razor",
               "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Catalog.razor",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Client\\Pages\\Catalog.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Catalog.razor",
               "RelativeToolTip": "WebAPI.Client\\Pages\\Catalog.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-15T17:12:40.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FolderProfile.pubxml",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\Properties\\PublishProfiles\\FolderProfile.pubxml",
-              "RelativeDocumentMoniker": "WebAPI.Server\\Properties\\PublishProfiles\\FolderProfile.pubxml",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\Properties\\PublishProfiles\\FolderProfile.pubxml",
-              "RelativeToolTip": "WebAPI.Server\\Properties\\PublishProfiles\\FolderProfile.pubxml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-10-15T17:18:51.596Z",
+              "DocumentIndex": 4,
+              "Title": "WebAPI.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj",
+              "RelativeDocumentMoniker": "WebAPI.Shared\\WebAPI.Shared.csproj",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj",
+              "RelativeToolTip": "WebAPI.Shared\\WebAPI.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-15T17:30:01.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\Classes.cs",
+              "RelativeDocumentMoniker": "WebAPI.Shared\\Classes.cs",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\Classes.cs",
+              "RelativeToolTip": "WebAPI.Shared\\Classes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:10:03.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Catalog.razor.css",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Catalog.razor.css",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Catalog.razor.css",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Catalog.razor.css",
+              "RelativeToolTip": "WebAPI.Client\\Pages\\Catalog.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T17:14:35.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Home.razor",
+              "RelativeToolTip": "WebAPI.Client\\Pages\\Home.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:12:16.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Login.razor",
+              "RelativeToolTip": "WebAPI.Client\\Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:14:47.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SingletonService.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\SingletonService.cs",
+              "RelativeDocumentMoniker": "WebAPI.Shared\\SingletonService.cs",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\SingletonService.cs",
+              "RelativeToolTip": "WebAPI.Shared\\SingletonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:06:47.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Home.razor.css",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Home.razor.css",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Home.razor.css",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Home.razor.css",
+              "RelativeToolTip": "WebAPI.Client\\Pages\\Home.razor.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T17:14:26.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "WebAPI.Client\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\index.html",
+              "RelativeToolTip": "WebAPI.Client\\wwwroot\\index.html",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-15T17:23:40.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebAPI.Shared",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj",
+              "RelativeDocumentMoniker": "WebAPI.Shared\\WebAPI.Shared.csproj",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj",
+              "RelativeToolTip": "WebAPI.Shared\\WebAPI.Shared.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-25T18:38:55.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.razor.css",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Login.razor.css",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Login.razor.css",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Login.razor.css",
+              "RelativeToolTip": "WebAPI.Client\\Pages\\Login.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T17:14:13.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Program.cs",
+              "RelativeToolTip": "WebAPI.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:18:57.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\App.razor",
+              "RelativeDocumentMoniker": "WebAPI.Client\\App.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\App.razor",
+              "RelativeToolTip": "WebAPI.Client\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:19:09.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "WebAPI.Client\\_Imports.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\_Imports.razor",
+              "RelativeToolTip": "WebAPI.Client\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:19:12.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Components.css",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\Components.css",
+              "RelativeDocumentMoniker": "WebAPI.Client\\wwwroot\\css\\Components.css",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\Components.css",
+              "RelativeToolTip": "WebAPI.Client\\wwwroot\\css\\Components.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T17:22:22.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "WebAPI.Client\\Layout\\MainLayout.razor.css",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T17:22:12.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "WebAPI.Client\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:20:42.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WebAPI.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\WebAPI.Server.csproj",
+              "RelativeDocumentMoniker": "WebAPI.Server\\WebAPI.Server.csproj",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\WebAPI.Server.csproj",
+              "RelativeToolTip": "WebAPI.Server\\WebAPI.Server.csproj",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-15T17:25:20.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "WebAPI.Client\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:20:46.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DatabaseController.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Controllers\\DatabaseController.cs",
+              "RelativeDocumentMoniker": "WebAPI.Server\\Controllers\\DatabaseController.cs",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Controllers\\DatabaseController.cs",
+              "RelativeToolTip": "WebAPI.Server\\Controllers\\DatabaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:09:08.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\appsettings.json",
+              "RelativeToolTip": "WebAPI.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T17:08:52.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "favicon.png",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "WebAPI.Client\\wwwroot\\favicon.png",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\favicon.png",
+              "RelativeToolTip": "WebAPI.Client\\wwwroot\\favicon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-10-15T17:23:34.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Admin.razor.css",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Admin.razor.css",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Admin.razor.css",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Admin.razor.css",
+              "RelativeToolTip": "WebAPI.Client\\Pages\\Admin.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T17:19:29.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Admin.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Admin.razor",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Admin.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Admin.razor",
+              "RelativeToolTip": "WebAPI.Client\\Pages\\Admin.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:16:56.904Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 27,
+              "Title": "FolderProfile.pubxml",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeDocumentMoniker": "WebAPI.Server\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeToolTip": "WebAPI.Server\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-10-15T17:18:51.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebAPI.Server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\New_Design\\WebAPI.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Properties\\launchSettings.json",
               "RelativeToolTip": "WebAPI.Server\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-15T17:18:47.251Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 77,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2024-10-15T17:18:47.251Z"
             }
           ]
         }
