@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj": {}
+    "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj": {
+    "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj",
         "projectName": "WebAPI.Shared",
-        "projectPath": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj",
-        "packagesPath": "C:\\Users\\NLTKD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\obj\\",
+        "projectPath": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Shared\\WebAPI.Shared.csproj",
+        "packagesPath": "C:\\Users\\deinestroza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NLTKD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\deinestroza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
