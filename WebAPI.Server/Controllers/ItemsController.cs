@@ -6,18 +6,18 @@ namespace DigitalShelves.Server.Controllers
 {
 
     [ApiController]
-    [Route("[controller]")]
-    public class DatabaseController : ControllerBase
+    [Route("api/[controller]")]
+    public class ItemsController : ControllerBase
     {
 
-        private readonly ILogger<DatabaseController> _logger;
+        private readonly ILogger<ItemsController> _logger;
 
-        public DatabaseController(ILogger<DatabaseController> logger)
+        public ItemsController(ILogger<ItemsController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetItem")]
+        [HttpGet(Name = "search")]
         public Item Get()  // Pass in any necessary search parameters
         {
 
