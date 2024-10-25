@@ -1,55 +1,55 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\obj\\Debug\\net8.0\\compressed\\gtb04924my.gz",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\obj\\Debug\\net8.0\\compressed\\p5r6y5j1bb.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebAPI.Client.styles.css",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebAPI.Client.styles.css",
       "PackagePath": "staticwebassets\\WebAPI.Client.styles.css"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\Components.css",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\Components.css",
       "PackagePath": "staticwebassets\\css\\Components.css"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\images\\lib_headphones.jpg",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\wwwroot\\images\\lib_headphones.jpg",
       "PackagePath": "staticwebassets\\images\\lib_headphones.jpg"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\images\\lib_microphone.jpg",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\wwwroot\\images\\lib_microphone.jpg",
       "PackagePath": "staticwebassets\\images\\lib_microphone.jpg"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\images\\lib_whiteboard.jpg",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\wwwroot\\images\\lib_whiteboard.jpg",
       "PackagePath": "staticwebassets\\images\\lib_whiteboard.jpg"
     },
     {
-      "Id": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\wwwroot\\index.html",
+      "Id": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

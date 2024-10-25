@@ -1,6 +1,5 @@
 using WebAPI.Shared;
 using Microsoft.AspNetCore.Mvc;
-using NetOceanDirect;
 
 namespace DigitalShelves.Server.Controllers
 {
