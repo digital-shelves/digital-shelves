@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "DigitalShelves.Server.Controllers.ItemsController",
+    "Method": "Get",
+    "RelativePath": "api/Items",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPI.Shared.Item",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "search"
+  }
+]

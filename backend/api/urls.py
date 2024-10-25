@@ -4,5 +4,5 @@ from rest_framework.urls import urlpatterns
 from . import views
 
 urlpatterns = [
-    path('api/', views.getData)
+    path('api/items/search/', views.getData)
 ]
