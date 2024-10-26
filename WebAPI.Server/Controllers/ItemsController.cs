@@ -1,10 +1,10 @@
 using WebAPI.Shared;
 using Microsoft.AspNetCore.Mvc;
-<<<<<<< HEAD
+//<<<<<<< HEAD
 using System.Net.Http;
 
-=======
->>>>>>> ab2fe9b26d19a28ba3498bc4fe174eebc14a3284
+//=======
+//>>>>>>> ab2fe9b26d19a28ba3498bc4fe174eebc14a3284
 
 namespace DigitalShelves.Server.Controllers
 {
@@ -29,7 +29,7 @@ namespace DigitalShelves.Server.Controllers
             try
             {
                 // Make a request to your Django REST API
-                var apiUrl = $"http://localhost:8000/api/items/search/?query={searchQuery}"; // Update this URL as needed
+                var apiUrl = $"http://127.0.0.1:8000/api/items/search/?query={searchQuery}"; // Update this URL as needed
                 var item = await _httpClient.GetFromJsonAsync<Item>(apiUrl);
 
                 if (item == null)
