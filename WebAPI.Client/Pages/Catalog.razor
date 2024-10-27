@@ -1,6 +1,7 @@
 ﻿@page "/catalog"
 @inject HttpClient Http
 
+@using System.Text.Json
 @using WebAPI.Shared;
 
 <!-- Main Container -->
@@ -50,17 +51,71 @@
 @code {
     private string searchQuery = string.Empty;
     private List<Item> items = new List<Item>();
+    private bool isLoading;
+    private string? errorMessage;
 
-    // Backend Query (Not Yet Implemented)
     private async Task SearchItems()
     {
         try
         {
-            items = await Http.GetFromJsonAsync<List<Item>>($"api/items/search?query={searchQuery}");
+            isLoading = true;
+            var encodedQuery = Uri.EscapeDataString(searchQuery);
+
+            var response = await Http.GetAsync($"api/items/search?query={encodedQuery}");
+            if (response.IsSuccessStatusCode)
+            {
+                // Read the content only once
+                var jsonString = await response.Content.ReadAsStringAsync();
+
+                var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true,
+                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                    };
+
+                try
+                {
+                    // Try parsing as a single item first
+                    var singleItem = JsonSerializer.Deserialize<Item>(jsonString, options);
+                    if (singleItem != null)
+                    {
+                        items = new List<Item> { singleItem };
+                    }
+                }
+                catch
+                {
+                    // If that fails, try parsing as a list
+                    items = JsonSerializer.Deserialize<List<Item>>(jsonString, options) ?? new List<Item>();
+                }
+            }
+            else
+            {
+                errorMessage = $"Server returned status code: {response.StatusCode}";
+                items = new List<Item>();
+            }
+        }
+        catch (HttpRequestException ex)
+        {
+            errorMessage = "Unable to connect to the server. Please try again.";
+            Console.WriteLine($"Network error: {ex.Message}");
+            items = new List<Item>();
+        }
+        catch (JsonException ex)
+        {
+            errorMessage = "Error processing server response.";
+            Console.WriteLine($"JSON parsing error: {ex.Message}");
+            items = new List<Item>();
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error fetching items: {ex.Message}");
+            errorMessage = "An unexpected error occurred.";
+            Console.WriteLine($"Unexpected error: {ex.Message}");
+            items = new List<Item>();
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
         }
     }
 }
