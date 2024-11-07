@@ -5192,7 +5192,6 @@ C:\Users\NLTKD\OneDrive\Desktop\Updated\digital-shelves\WebAPI.Client\obj\Debug\
 C:\Users\NLTKD\OneDrive\Desktop\Updated\digital-shelves\WebAPI.Client\obj\Debug\net8.0\scopedcss\Pages\Admin.razor.rz.scp.css
 C:\Users\NLTKD\OneDrive\Desktop\Updated\digital-shelves\WebAPI.Client\obj\Debug\net8.0\scopedcss\Pages\Catalog.razor.rz.scp.css
 C:\Users\NLTKD\OneDrive\Desktop\Updated\digital-shelves\WebAPI.Client\obj\Debug\net8.0\scopedcss\Pages\Home.razor.rz.scp.css
-C:\Users\NLTKD\OneDrive\Desktop\Updated\digital-shelves\WebAPI.Client\obj\Debug\net8.0\scopedcss\Pages\Login.razor.rz.scp.css
 C:\Users\NLTKD\OneDrive\Desktop\Updated\digital-shelves\WebAPI.Client\obj\Debug\net8.0\scopedcss\bundle\WebAPI.Client.styles.css
 C:\Users\NLTKD\OneDrive\Desktop\Updated\digital-shelves\WebAPI.Client\obj\Debug\net8.0\scopedcss\projectbundle\WebAPI.Client.bundle.scp.css
 C:\Users\NLTKD\OneDrive\Desktop\Updated\digital-shelves\WebAPI.Client\obj\Debug\net8.0\compressed\gtb04924my.gz

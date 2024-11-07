@@ -11,7 +11,8 @@
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.4",
           "Swashbuckle.AspNetCore": "6.4.0",
           "WebAPI.Client": "1.0.0",
-          "WebAPI.Shared": "1.0.0"
+          "WebAPI.Shared": "1.0.0",
+          "NetOceanDirect": "1.0.8825.37704"
         },
         "runtime": {
           "WebAPI.Server.dll": {}
@@ -299,6 +300,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "NetOceanDirect/1.0.8825.37704": {
+        "runtime": {
+          "NetOceanDirect.dll": {
+            "assemblyVersion": "1.0.8825.37704",
+            "fileVersion": "0.0.0.0"
+          }
+        }
       }
     }
   },
@@ -553,6 +562,11 @@
     },
     "WebAPI.Shared/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetOceanDirect/1.0.8825.37704": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

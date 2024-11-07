@@ -1,12 +1,12 @@
 {
   "mainAssemblyName": "WebAPI.Client",
   "resources": {
-    "hash": "sha256-FmzI7Qpx/SUdWGoc2NUUQtssJcA9YO9p12TtQt5X3Gs=",
+    "hash": "sha256-WlpRvdDj9MikxLlLX0B4LUKDriCs8e6P+PySECaw1aY=",
     "jsModuleNative": {
-      "dotnet.native.8.0.10.glpcgzni2g.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
+      "dotnet.native.8.0.10.yz66noba80.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.10.zzn5dw6vrw.js": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI="
+      "dotnet.runtime.8.0.10.c8krw13kr9.js": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI="
     },
     "wasmNative": {
       "dotnet.native.wasm": "sha256-4ymhDbG5daKbi9yL1L574jRRiFFQhiOrDJU5YAYALU4="
@@ -209,12 +209,12 @@
       "mscorlib.wasm": "sha256-VCfYgt1mcjITabSTosCDVZ+68ea3Z7kakTFaLNLG+18=",
       "netstandard.wasm": "sha256-YOZxxR9PM3Dltcijfb0Q4FD39DkWZbZ1e2ScbZDvWJ4=",
       "System.Private.CoreLib.wasm": "sha256-NrT1QkAzVU//2wgK9vXdq77lCGvLJ4IOZ+Aegesyanc=",
-      "WebAPI.Shared.wasm": "sha256-fM7qdFX2egaHxFWTzpVtJ1mdzg2pgUwHSGaYSV39Tj8=",
-      "WebAPI.Client.wasm": "sha256-FpXSlrHLad6a+XAaGoKLbq/wfGuorZRKLzkMNyLQ4eI="
+      "WebAPI.Shared.wasm": "sha256-8Y0o4maPtcxtdNS5h+idrwayQoJovgyMkdNLwNTgiKA=",
+      "WebAPI.Client.wasm": "sha256-FF5OfLmUF7wBluR+ZezZuv4fDwsMTcV76hgj90841Ik="
     },
     "pdb": {
-      "WebAPI.Shared.pdb": "sha256-r8T5JalCMLy51LnQ7WX1epUYnwBQWu8oLXitYDdO9/g=",
-      "WebAPI.Client.pdb": "sha256-SnHiE5L1nvpajxvj1TRarh7FFG3R6ATufoxZi8hrTek="
+      "WebAPI.Shared.pdb": "sha256-9RXj3d7iEx+COb4Np4IkgHm+GuUqOYAyQDxByjrZ+hM=",
+      "WebAPI.Client.pdb": "sha256-i4E3p1MmNdt3IY2u4veC5LErZJKXPRor/IJa9sOLZcc="
     }
   },
   "cacheBootResources": true,
