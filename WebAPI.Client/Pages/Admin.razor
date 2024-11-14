@@ -5,15 +5,51 @@
 @using WebAPI.Shared;
 @using System.Text.Json;
 
-<h1>Welcome, Admin!</h1>
-
-<!-- Add fucntionality for editing items here -->
+<div class="login-container">
+    <div class="login-box">
+        <h3>Welcome, Admin!</h3>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" @bind="username" class="form-control" id="username" placeholder="Enter username" />
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" @bind="password" class="form-control" id="password" placeholder="Enter password" />
+        </div>
+        <button @onclick="SubmitLogin" class="btn btn-primary">Submit</button>
+        <div class="status-message">@statusMessage</div>
+    </div>
+</div>
 
 @code {
+    private string username;
+    private string password;
+    private string statusMessage;
 
-	// If items quantities are updated, send value to backend server
-		// Update the database with new values
-		// Display a message to the user that the update was successful
+    private async Task SubmitLogin()
+    {
+        try
+        {
+            var loginData = new { username = username, password = password };
+            var content = new StringContent(JsonSerializer.Serialize(loginData), System.Text.Encoding.UTF8, "application/json");
 
+            // Send POST request to Django API
+            // UPDATE WITH CORRECT POST, DOES IT NEED A PARAMETER?              <============== UPDATE LINE
+            var response = await Http.PostAsync("api/admin/login", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                statusMessage = "Login successful!";
+                // Redirect to new Admin page with ability to update data on the backend
+            }
+            else
+            {
+                statusMessage = "Invalid credentials. Please try again.";
+            }
+        }
+        catch (Exception ex)
+        {
+            statusMessage = $"Error: {ex.Message}";
+        }
+    }
 }
-
