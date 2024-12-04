@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "DigitalShelves.Server.Controllers.AdminController",
+    "Method": "Post",
+    "RelativePath": "Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPI.Shared.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "login"
+  },
+  {
     "ContainingType": "DigitalShelves.Server.Controllers.ItemsController",
     "Method": "Get",
     "RelativePath": "api/Items",

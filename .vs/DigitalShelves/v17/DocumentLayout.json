@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\",
+  "WorkspaceRootPath": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\deinestroza\\documents\\github\\digital-shelves\\webapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\deinestroza\\documents\\github\\digital-shelves\\webapi.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\pages\\catalog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\pages\\catalog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.server\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.shared\\singletonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|solutionrelative:webapi.shared\\singletonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.shared\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F366B839-C2C3-429C-B5A2-884FD4406FED}|WebAPI.Shared\\WebAPI.Shared.csproj|solutionrelative:webapi.shared\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\deinestroza\\documents\\github\\digital-shelves\\webapi.server\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B9748B-1570-4146-A507-974FB0B50E20}|WebAPI.Client\\WebAPI.Client.csproj|solutionrelative:webapi.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|c:\\users\\nltkd\\onedrive\\desktop\\updated\\digital-shelves\\webapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE4E925-0021-4BC3-9DE3-78AEFCE8385F}|WebAPI.Server\\WebAPI.Server.csproj|solutionrelative:webapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,16 +49,90 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Catalog.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Catalog.razor",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Catalog.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Catalog.razor",
+              "RelativeToolTip": "WebAPI.Client\\Pages\\Catalog.razor",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T20:32:21.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SingletonService.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\SingletonService.cs",
+              "RelativeDocumentMoniker": "WebAPI.Shared\\SingletonService.cs",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\SingletonService.cs",
+              "RelativeToolTip": "WebAPI.Shared\\SingletonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T20:30:21.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\Classes.cs",
+              "RelativeDocumentMoniker": "WebAPI.Shared\\Classes.cs",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Shared\\Classes.cs",
+              "RelativeToolTip": "WebAPI.Shared\\Classes.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T20:29:29.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebAPI.Server\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebAPI.Server\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T20:25:28.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Admin.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Admin.razor",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Pages\\Admin.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Pages\\Admin.razor",
+              "RelativeToolTip": "WebAPI.Client\\Pages\\Admin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T20:22:06.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WebAPI.Client\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "WebAPI.Client\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T20:22:18.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI.Client\\Program.cs",
-              "ToolTip": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Client\\Program.cs",
               "RelativeToolTip": "WebAPI.Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -43,38 +141,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Server\\Controllers\\ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Controllers\\ItemsController.cs",
               "RelativeDocumentMoniker": "WebAPI.Server\\Controllers\\ItemsController.cs",
-              "ToolTip": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Server\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Controllers\\ItemsController.cs",
               "RelativeToolTip": "WebAPI.Server\\Controllers\\ItemsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T23:39:49.934Z"
+              "WhenOpened": "2024-10-25T23:39:49.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Server\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\deinestroza\\Documents\\GitHub\\digital-shelves\\WebAPI.Server\\Program.cs*",
-              "RelativeToolTip": "WebAPI.Server\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\NLTKD\\OneDrive\\Desktop\\Updated\\digital-shelves\\WebAPI.Server\\Program.cs",
+              "RelativeToolTip": "WebAPI.Server\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T23:39:24.644Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 77,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

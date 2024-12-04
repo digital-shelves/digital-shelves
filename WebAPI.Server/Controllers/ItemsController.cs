@@ -1,10 +1,7 @@
 using WebAPI.Shared;
 using Microsoft.AspNetCore.Mvc;
-//<<<<<<< HEAD
 using System.Net.Http;
 
-//=======
-//>>>>>>> ab2fe9b26d19a28ba3498bc4fe174eebc14a3284
 
 namespace DigitalShelves.Server.Controllers
 {

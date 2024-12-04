@@ -8,7 +8,10 @@ public class SingletonService
 {
 
     // Possible security risk to include in this file:
+
     bool adminPrivs = false;    // set to true with valid admin credentials
+
+    User currentUser = null;    // set to the current user with valid login credentials
 
 }
 
