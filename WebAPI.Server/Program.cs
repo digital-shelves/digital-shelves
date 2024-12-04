@@ -3,6 +3,10 @@ var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddScoped(sp =>
 //    new HttpClient { BaseAddress = new Uri("http://127.0.0.1:8000") }
 //);
+builder.Services.AddScoped(sp => new HttpClient
+{
+    BaseAddress = new Uri("http://127.0.0.1:8000/")
+});
 
 // Add services to the container.
 

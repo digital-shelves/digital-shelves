@@ -15,28 +15,49 @@
         <button @onclick="SearchItems" class="search-button">Search</button>
     </div>
 
-    <!-- Results Section (Table) -->
-    @if (items != null && items.Any())
+    <!-- Results Section -->
+    @if (isLoading)
+    {
+        <p>Loading...</p>
+    }
+    else if (items != null && items.Any())
     {
         <table class="catalog-table">
             <thead>
                 <tr>
-                    <th>ID</th>
+                    <th>Image</th>
                     <th>Name</th>
                     <th>Description</th>
-                    <th>Available</th>
-                    <th>Image</th>
+                    <th>Availability</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in items.Take(10))
+                @foreach (var item in items)
                 {
                     <tr>
-                        <td>@item.ID</td>
-                        <td>@item.Name</td>
-                        <td>@item.Description</td>
-                        <td>@item.AmountAvailable</td>
-                        <td><img src="@item.ImageURL" alt="@item.Name" class="item-image" /></td>
+                        <td class="image-cell">
+                            @if (!string.IsNullOrEmpty(item.ImageURL))
+                            {
+                                <img src="@item.ImageURL" alt="@item.Name" class="item-image"
+                                     @onerror="@(e => HandleImageError(e, item))" />
+                            }
+                            else
+                            {
+                                <div class="placeholder-image">No Image</div>
+                            }
+                        </td>
+                        <td class="name-cell">@item.Name</td>
+                        <td class="description-cell">@item.Description</td>
+                        <td class="availability-cell">
+                            @if (item.AmountAvailable > 0)
+                            {
+                                <span class="available">@item.AmountAvailable available</span>
+                            }
+                            else
+                            {
+                                <span class="unavailable">Out of stock</span>
+                            }
+                        </td>
                     </tr>
                 }
             </tbody>
@@ -54,6 +75,11 @@
     private bool isLoading;
     private string? errorMessage;
 
+    private void HandleImageError(ErrorEventArgs e, Item item)
+    {
+        item.ImageURL = "https://via.placeholder.com/150";
+    }
+
     private async Task SearchItems()
     {
         try
@@ -64,52 +90,54 @@
             var response = await Http.GetAsync($"api/items/search?query={encodedQuery}");
             if (response.IsSuccessStatusCode)
             {
-                // Read the content only once
                 var jsonString = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Debug - Raw JSON: {jsonString}");
 
                 var options = new JsonSerializerOptions
                     {
-                        PropertyNameCaseInsensitive = true,
-                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                        PropertyNameCaseInsensitive = false, 
+                        PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower, 
+                        WriteIndented = true
                     };
 
                 try
                 {
-                    // Try parsing as a single item first
-                    var singleItem = JsonSerializer.Deserialize<Item>(jsonString, options);
-                    if (singleItem != null)
+                    var result = JsonSerializer.Deserialize<List<Dictionary<string, JsonElement>>>(jsonString, options);
+                    if (result != null)
                     {
-                        items = new List<Item> { singleItem };
+                        items = result.Select(dict => new Item
+                            {
+                                ID = dict.GetValueOrDefault("id").GetInt32(),
+                                Name = dict.GetValueOrDefault("name").GetString() ?? "",
+                                Description = dict.GetValueOrDefault("description").GetString() ?? "",
+                                AmountAvailable = dict.GetValueOrDefault("amount_available").GetInt32(),
+                                ImageURL = dict.GetValueOrDefault("img_url").GetString() ?? ""
+                            }).ToList();
+
+                        Console.WriteLine($"Debug - Deserialized {items.Count} items");
+                        foreach (var item in items)
+                        {
+                            Console.WriteLine($"Debug - Item after mapping: Name={item.Name}, Amount={item.AmountAvailable}, URL={item.ImageURL}");
+                        }
                     }
                 }
-                catch
+                catch (Exception ex)
                 {
-                    // If that fails, try parsing as a list
-                    items = JsonSerializer.Deserialize<List<Item>>(jsonString, options) ?? new List<Item>();
+                    Console.WriteLine($"Debug - Deserialization error: {ex.Message}");
+                    items = new List<Item>();
                 }
             }
             else
             {
+                Console.WriteLine($"Debug - HTTP Error: {response.StatusCode}");
                 errorMessage = $"Server returned status code: {response.StatusCode}";
                 items = new List<Item>();
             }
         }
-        catch (HttpRequestException ex)
-        {
-            errorMessage = "Unable to connect to the server. Please try again.";
-            Console.WriteLine($"Network error: {ex.Message}");
-            items = new List<Item>();
-        }
-        catch (JsonException ex)
-        {
-            errorMessage = "Error processing server response.";
-            Console.WriteLine($"JSON parsing error: {ex.Message}");
-            items = new List<Item>();
-        }
         catch (Exception ex)
         {
-            errorMessage = "An unexpected error occurred.";
-            Console.WriteLine($"Unexpected error: {ex.Message}");
+            Console.WriteLine($"Debug - Error: {ex.Message}");
+            errorMessage = "Error searching items";
             items = new List<Item>();
         }
         finally

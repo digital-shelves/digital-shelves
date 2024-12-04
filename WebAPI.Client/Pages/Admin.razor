@@ -1,19 +1,140 @@
 ﻿@page "/admin"
+@using System.Text.Json
+@using WebAPI.Shared
 @inject HttpClient Http
 @inject IJSRuntime JSRuntime
-@inject SingletonService DataService
-@using WebAPI.Shared;
-@using System.Text.Json;
+@inject NavigationManager NavManager
 
-<h1>Welcome, Admin!</h1>
+<div class="admin-container">
+    @if (!string.IsNullOrEmpty(username))
+    {
+        <h1>Welcome, @username!</h1>
 
-<!-- Add fucntionality for editing items here -->
+        <div class="add-item-section">
+            <h2>Add New Item</h2>
+            <EditForm Model="@newItem" OnValidSubmit="HandleAddItem">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <InputText id="name" @bind-Value="newItem.Name" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <InputTextArea id="description" @bind-Value="newItem.Description" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label for="amountAvailable">Amount Available:</label>
+                    <InputNumber id="amountAvailable" @bind-Value="newItem.AmountAvailable" class="form-control" min="0" />
+                </div>
+
+                <div class="form-group">
+                    <label for="imageUrl">Image URL:</label>
+                    <InputText id="imageUrl" @bind-Value="newItem.ImageURL" class="form-control" />
+                    <small class="form-text text-muted">Enter a full URL (e.g., https://example.com/image.jpg)</small>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Add Item</button>
+            </EditForm>
+
+            @if (!string.IsNullOrEmpty(message))
+            {
+                <div class="@messageClass mt-3">
+                    @message
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning">
+            Please <a href="/login">log in</a> as an administrator to access this page.
+        </div>
+    }
+</div>
 
 @code {
+    private Item newItem = new()
+        {
+            AmountAvailable = 0,
+            ImageURL = "https://via.placeholder.com/150"  // Default placeholder image
+        };
+    private string message = "";
+    private string messageClass = "";
+    private string username = "";
 
-	// If items quantities are updated, send value to backend server
-		// Update the database with new values
-		// Display a message to the user that the update was successful
+    protected override async Task OnInitializedAsync()
+    {
+        username = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "username") ?? "";
+    }
 
+    private async Task HandleAddItem()
+    {
+        try
+        {
+            var token = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "token");
+
+            if (string.IsNullOrEmpty(token))
+            {
+                message = "Please log in again.";
+                messageClass = "alert alert-warning";
+                NavManager.NavigateTo("/login", true);
+                return;
+            }
+
+            Http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            // Create the request data
+            var itemData = new
+            {
+                name = newItem.Name,
+                description = newItem.Description,
+                amount_available = newItem.AmountAvailable,
+                img_url = newItem.ImageURL
+            };
+
+            // Debug print
+            Console.WriteLine($"Sending item data: {JsonSerializer.Serialize(itemData)}");
+
+            var response = await Http.PostAsJsonAsync("api/items/add/", itemData);
+
+            // Debug print
+            Console.WriteLine($"Response Status: {response.StatusCode}");
+            var responseContent = await response.Content.ReadAsStringAsync();
+            Console.WriteLine($"Response Content: {responseContent}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                message = "Item added successfully!";
+                messageClass = "alert alert-success";
+
+                // Reset the form
+                newItem = new Item
+                    {
+                        AmountAvailable = 0,
+                        ImageURL = "https://via.placeholder.com/150"
+                    };
+            }
+            else
+            {
+                message = $"Error adding item: {responseContent}";
+                messageClass = "alert alert-danger";
+
+                if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
+                {
+                    await JSRuntime.InvokeVoidAsync("alert", "Your session has expired. Please log in again.");
+                    NavManager.NavigateTo("/login", true);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            message = $"Error: {ex.Message}";
+            messageClass = "alert alert-danger";
+            Console.WriteLine($"Exception in HandleAddItem: {ex}");
+        }
+    }
 }
-

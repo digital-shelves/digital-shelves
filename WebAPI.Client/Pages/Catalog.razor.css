@@ -3,11 +3,10 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     font-family: Arial, sans-serif;
     color: #333;
-    text-align: center;
 }
 
     .catalog-page-container h1 {
@@ -20,6 +19,7 @@
         font-size: 1.2rem;
         margin-bottom: 2rem;
         max-width: 600px;
+        text-align: center;
     }
 
 .search-container {
@@ -35,6 +35,7 @@
     flex-grow: 1;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 .search-button {
@@ -45,6 +46,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
+    transition: background-color 0.2s;
 }
 
     .search-button:hover {
@@ -53,22 +55,76 @@
 
 .catalog-table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     margin-top: 2rem;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
     .catalog-table th, .catalog-table td {
         padding: 1rem;
-        border: 1px solid #ddd;
+        border-bottom: 1px solid #eee;
+        text-align: left;
     }
 
     .catalog-table th {
-        background-color: #f0f0f0;
-        font-weight: bold;
+        background-color: #f8f9fa;
+        font-weight: 600;
+        color: #495057;
+        white-space: nowrap;
     }
 
+.image-cell {
+    width: 100px;
+    text-align: center;
+}
+
 .item-image {
-    max-width: 50px;
-    max-height: 50px;
-    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.name-cell {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.description-cell {
+    color: #666;
+    max-width: 300px;
+}
+
+.availability-cell {
+    width: 120px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.available {
+    color: #28a745;
+    font-weight: 500;
+}
+
+.unavailable {
+    color: #dc3545;
+    font-weight: 500;
+}
+
+.placeholder-image {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #6c757d;
+    font-size: 0.8rem;
 }
