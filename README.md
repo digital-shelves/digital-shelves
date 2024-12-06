@@ -1,4 +1,14 @@
-# How to install Python backend dependencies
+# Digital Shelves
+Many students depend on their campus libraries to loan them important items such as laptops, headphones, calculators, etc. However, there is not an easy way to find out what resources are available. Though students could go in-person, they may not necessarily be able to do so. As a result, some students may not end up utilizing their library resources which could otherwise boost their academic performance. To fix this issue, we will create a web-based application where students can easily see what items are available without having to physically go to the library.
+
+## Dependencies
+.NET 8.0
+
+## Tech Stack
+Blazor WebAssembly Application with a SQL database on the backend (subject to change)
+
+
+## How to install Python backend dependencies
 The digital-shelves/backend directory contains the Django project which contains all the boilerplate code for the server. 
 To use it you must install [Python 3.12](https://www.python.org/downloads/release/python-3123/). During the install, make sure to check the box to add Python to your PATH enviornment variable. After installing, cd to the digital-shelves directory and run these commands:
 
